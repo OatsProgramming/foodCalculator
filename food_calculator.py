@@ -284,7 +284,7 @@ User: Asks for meals -> Food Program -> meal folder -> ingredient file(s)
 12:07 PM:
 Going to try and incorporate the map into the program.
 1:01 PM
-I FUCKING FINALLY PUT THE FILE IN THE FOLDER! Fucking hell that was stupidly tedious. Check it:
+I FINALLY PUT THE FILE IN THE FOLDER! Geez, that was stupidly tedious. Check it:
 
             try:
                 os.mkdir(mealname)
@@ -344,7 +344,7 @@ meals() and the line:
                         print(idx)
                         meal_files = None
 
-Doesn't fking work for some reason. Every time its executed, it goes back to the main menu, which is initiation(). I even put "print("random")" to see if it'll print, but no.
+Doesn't work for some reason. Every time its executed, it goes back to the main menu, which is initiation(). I even put "print("random")" to see if it'll print, but no.
 It completely skips it. I've been tinkering with everything else such as pickling and unpickling files, rerouting directories, etc. Simple little things. But I CANT GET THE DAMN
 CODE TO WORK. I've tried other lines of code in meals() like these for example:
 
